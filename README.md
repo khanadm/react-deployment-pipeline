@@ -29,3 +29,49 @@ First, we need to install nodejs. npm comes with nodejs bundled. To install node
   sudo apt-get install -y nodejs
   ```
 
+To check nodejs is successfully installed or not use 
+
+```sh
+node -v
+```
+
+Also, npm is already installed. Use check version of npm
+
+```sh
+npm -v
+```
+- Now Create a react project 
+
+To install the base project, run the following command:(In my case project name react_deployment)
+
+```sh
+npx create-react-app react_deployment
+```
+
+This command will kick off a build process that will download the base code along with a number of dependencies.
+
+To run any npm script, you just need to type
+
+```sh
+npm run build
+``` 
+
+![project output](https://user-images.githubusercontent.com/106643382/200764079-9ddfc1f0-171f-474f-99e1-0bdf1b2b9b31.png "project output")
+
+![built output](https://user-images.githubusercontent.com/106643382/200764340-102f100f-3ec5-446a-acb1-2167642c192f.png "built output")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
